@@ -228,7 +228,7 @@
 
 @push('script-src')
 <script>
-    /*$('#pincode').on('input', function() {
+    $('#pincode').on('input', function() {
         var pincode = $(this).val();
 
         // Only make request if pincode is of 6 digits
@@ -271,7 +271,7 @@
             $('#city').val('');
             $('#state').val('');
         }
-    });*/
+    });
     $(".create-account-form").submit(function(event) {
         var status = document.activeElement.innerHTML;
         event.preventDefault();
