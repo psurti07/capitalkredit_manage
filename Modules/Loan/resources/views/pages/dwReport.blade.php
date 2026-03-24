@@ -88,9 +88,9 @@
                                                                             class="es-m-txt-c"
                                                                             style="padding: 0; margin: 0; padding-top: 5px; font-size: 0;">
                                                                             <a target="_blank"
-                                                                                href="https://capitalkredit.com/"
+                                                                                href="https://capitalkredit.in/"
                                                                                 style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: underline; color: #000f26; font-size: 14px;">
-                                                                            <img src="https://capitalkredit.com/front/images/logo/logo.png"
+                                                                            <img src="https://capitalkredit.in/front/images/logo/logo.png"
                                                                                 alt="capitalkredit"
                                                                                 style="display: block; border: 0; outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic;"
                                                                                 width="190"

@@ -18,9 +18,9 @@
                 height: 100%;
                 background-repeat: repeat;
                 background-position: center top;
-                background-image: url(https://capitalkredit.com/assets/images/mail-bgm.png);
+                background-image: url(https://capitalkredit.in/assets/images/mail-bgm.png);
                 background-color: #f9f9f9;
-                " background="https://capitalkredit.com/front/images/bg-01.webp">
+                " background="https://capitalkredit.in/front/images/bg-01.webp">
                 <tbody>
                     <tr>
                         <td class="es-m-margin" valign="top" style="padding: 0; margin: 0;">
@@ -60,9 +60,9 @@
                                                                                             class="es-m-txt-c"
                                                                                             style="padding: 0; margin: 0; padding-top: 5px; font-size: 0;">
                                                                                             <a target="_blank"
-                                                                                                href="https://capitalkredit.com/"
+                                                                                                href="https://capitalkredit.in/"
                                                                                                 style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: underline; color: #000f26; font-size: 14px;">
-                                                                                            <img src="https://capitalkredit.com/front/images/logo/logo.png"
+                                                                                            <img src="https://capitalkredit.in/front/images/logo/logo.png"
                                                                                                 alt="capitalkredit"
                                                                                                 style="display: block; border: 0; outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic;"
                                                                                                 width="190"
@@ -255,7 +255,7 @@
                                                                                             </p>
                                                                                             <p>Please visit Your Personalised Portal and login with your credentials:</p>
                                                                                             </p>
-                                                                                            <a href="https://capitalkredit.com/customer/login"
+                                                                                            <a href="https://capitalkredit.in/customer/login"
                                                                                                 style="display:inline-block;background:#2c2c2c;color:#fff;font-family:Ubuntu,Helvetica,Arial,sans-serif,Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:17.5px;margin:0;text-decoration:none;text-transform:none;padding:9px 26px 9px 26px; margin:auto; display:block; width: fit-content; mso-padding-alt:0;border-radius:10px"
                                                                                                 target="_blank"><span><strong><span
                                                                                                 style="font-family:Poppins,sans-serif;font-size:14px">Click
@@ -330,25 +330,25 @@
                                                                                                 ">
                                                                                                 <a target="_blank"
                                                                                                     style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #000f26; font-size: 14px;"
-                                                                                                    href="https://capitalkredit.com/privacy-policy">
+                                                                                                    href="https://capitalkredit.in/privacy-policy">
                                                                                                 Privacy Policy
                                                                                                 </a>
                                                                                                 &nbsp; | &nbsp;
                                                                                                 <a target="_blank"
                                                                                                     style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #000f26; font-size: 14px;"
-                                                                                                    href="https://capitalkredit.com/terms-and-conditions">
+                                                                                                    href="https://capitalkredit.in/terms-and-conditions">
                                                                                                 Terms &amp; Conditions
                                                                                                 </a>
                                                                                                 &nbsp; | &nbsp;
                                                                                                 <a target="_blank"
                                                                                                     style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #000f26; font-size: 14px;"
-                                                                                                    href="https://capitalkredit.com/raise-request">
+                                                                                                    href="https://capitalkredit.in/raise-request">
                                                                                                 Raise a request
                                                                                                 </a>
                                                                                                 &nbsp; | &nbsp;
                                                                                                 <a target="_blank"
                                                                                                     style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #000f26; font-size: 14px;"
-                                                                                                    href="https://capitalkredit.com">
+                                                                                                    href="https://capitalkredit.in">
                                                                                                 Visit Website
                                                                                                 </a>
                                                                                             </p>
@@ -395,7 +395,7 @@
                                                                                                 {{ str_ireplace(' ','-',env('COMPANY_MOBILE')) }}
                                                                                                 </a>
                                                                                                 | Email:
-                                                                                                <a href="mailto:info@capitalkredit.com"
+                                                                                                <a href="mailto:info@capitalkredit.in"
                                                                                                     style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #000f26; font-size: 14px;">
                                                                                                 {{ env('INFO_EMAIL') }}
                                                                                                 </a>

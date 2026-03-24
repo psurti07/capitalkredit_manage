@@ -370,9 +370,9 @@
                 height: 100%;
                 background-repeat: repeat;
                 background-position: center top;
-                background-image: url(https://capitalkredit.com/assets/images/mail-bgm.png);
+                background-image: url(https://capitalkredit.in/assets/images/mail-bgm.png);
                 background-color: #f9f9f9;
-                " background="https://capitalkredit.com/front/images/bg-01.webp">
+                " background="https://capitalkredit.in/front/images/bg-01.webp">
                 <tbody>
                     <tr>
                         <td class="es-m-margin" valign="top" style="padding: 0; margin: 0;">
@@ -412,9 +412,9 @@
                                                                                             class="es-m-txt-c"
                                                                                             style="padding: 0; margin: 0; padding-top: 5px; font-size: 0;">
                                                                                             <a target="_blank"
-                                                                                                href="https://capitalkredit.com/"
+                                                                                                href="https://capitalkredit.in/"
                                                                                                 style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: underline; color: #000f26; font-size: 14px;">
-                                                                                            <img src="https://capitalkredit.com/front/images/logo/logo.png"
+                                                                                            <img src="https://capitalkredit.in/front/images/logo/logo.png"
                                                                                                 alt="capitalkredit"
                                                                                                 style="display: block; border: 0; outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic;"
                                                                                                 width="190"
@@ -522,25 +522,25 @@
                                                                                                 ">
                                                                                                 <a target="_blank"
                                                                                                     style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #000f26; font-size: 14px;"
-                                                                                                    href="https://capitalkredit.com/privacy-policy">
+                                                                                                    href="https://capitalkredit.in/privacy-policy">
                                                                                                 Privacy Policy
                                                                                                 </a>
                                                                                                 &nbsp; | &nbsp;
                                                                                                 <a target="_blank"
                                                                                                     style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #000f26; font-size: 14px;"
-                                                                                                    href="https://capitalkredit.com/terms-and-conditions">
+                                                                                                    href="https://capitalkredit.in/terms-and-conditions">
                                                                                                 Terms &amp; Conditions
                                                                                                 </a>
                                                                                                 &nbsp; | &nbsp;
                                                                                                 <a target="_blank"
                                                                                                     style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #000f26; font-size: 14px;"
-                                                                                                    href="https://capitalkredit.com/contact-us">
+                                                                                                    href="https://capitalkredit.in/contact-us">
                                                                                                 Raise a request
                                                                                                 </a>
                                                                                                 &nbsp; | &nbsp;
                                                                                                 <a target="_blank"
                                                                                                     style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #000f26; font-size: 14px;"
-                                                                                                    href="https://capitalkredit.com">
+                                                                                                    href="https://capitalkredit.in">
                                                                                                 Visit Website
                                                                                                 </a>
                                                                                             </p>
@@ -587,9 +587,9 @@
                                                                                                 +91-94292-14352
                                                                                                 </a>
                                                                                                 | Email:
-                                                                                                <a href="mailto:info@capitalkredit.com"
+                                                                                                <a href="mailto:info@capitalkredit.in"
                                                                                                     style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #000f26; font-size: 14px;">
-                                                                                                info@capitalkredit.com
+                                                                                                info@capitalkredit.in
                                                                                                 </a>
                                                                                             </p>
                                                                                         </td>
