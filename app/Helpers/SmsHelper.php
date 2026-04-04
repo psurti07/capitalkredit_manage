@@ -65,6 +65,7 @@ if(!function_exists('sendDynamicSMS')){
         // Submit the request to the server
         $response = Http::get($api_url);
         
+        Log::info($response);
         // Return the response
         return [
             'status_code' => $response->status(),

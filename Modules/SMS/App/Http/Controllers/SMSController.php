@@ -80,7 +80,13 @@ class SMSController extends Controller
             /* if($request->title == 24){
                 $tempId = 1707175432183949491;
             } */
-            $res = sendDynamicSMS($request->senderid, $request->message, $request->mobile, $panel, $tempId);
+           
+           $eligibilityamt = "500000";
+           $message = str_replace("{#varamount#}",$eligibilityamt,$request->message);
+           Log::info("start");
+           Log::info("message:" . $message);
+
+            $res = sendDynamicSMS($request->senderid, $message, $request->mobile, $panel, $tempId);
             if($res['status_code'] == 200){
                 return response()->json(['type'=>'SUCCESS','message'=>'Message sent successfully.']);
             } else {
