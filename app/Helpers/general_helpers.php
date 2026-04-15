@@ -7,6 +7,7 @@ use App\Models\CipherPayEntry;
 use App\Models\LyraEntry;
 use App\Models\PaygicEntry;
 use App\Models\PhonePeEntry;
+use App\Models\Razorpayentry;
 use App\Models\VeegahPay;
 use App\Models\SabpaisaEntry;
 use App\Models\UserRegistration;
@@ -818,6 +819,12 @@ use Modules\Auth\App\Models\Administrations;
                 ->where('txstatus','PAYMENT_SUCCESS')
                 ->selectRaw('SUM(orderamount) as totalAmt')
                 ->first()->totalAmt;
+            $razorPaySA = Razorpayentry::where('rec_date', 'like', Carbon::now()->toDateString().'%')
+                ->whereIn('entryfor', ['6', '7', '8', '9', '11', '21', '31'])
+                ->whereNotNull('referenceid')
+                ->where('txstatus','PAYMENT_SUCCESS')
+                ->selectRaw('SUM(orderamount) as totalAmt')
+                ->first()->totalAmt;
             /* $airpaySA = AirpayEntry::where('rec_date', 'like', Carbon::now()->toDateString().'%')
                 ->whereIn('entryfor', ['6', '7', '8', '9', '11', '21', '31'])
                 ->whereNotNull('transactionid')
@@ -868,6 +875,12 @@ use Modules\Auth\App\Models\Administrations;
                 ->where('txstatus','PAYMENT_SUCCESS')
                 ->selectRaw('SUM(orderamount) as totalAmt')
                 ->first()->totalAmt;
+            $razorPayLA = Razorpayentry::where('rec_date', 'like', Carbon::now()->toDateString().'%')
+                ->whereIn('entryfor', ['6', '7', '8', '9', '11', '21', '31'])
+                ->whereNotNull('referenceid')
+                ->where('txstatus','PAYMENT_SUCCESS')
+                ->selectRaw('SUM(orderamount) as totalAmt')
+                ->first()->totalAmt;
             /* $airpayLA = AirpayEntry::where('rec_date', 'like', Carbon::now()->toDateString().'%')
                 ->whereIn('entryfor', ['3', '4', '5', '10', '12', '22','32'])
                 ->whereNotNull('transactionid')
@@ -882,8 +895,8 @@ use Modules\Auth\App\Models\Administrations;
                 ->first()->totalAmt; */
             
             return [
-                'zaakPaySA'=>$zaakPaySA,'paygicSA'=>$paygicPGSA,'lyraSA'=>$lyraPGSA,'sabpaisaSA'=>$sabpaisaPGSA,'phonePeSA'=>$phonePeSA,
-                'zaakPayLA'=>$zaakPayLA,'paygicLA'=>$paygicLA,'sabpaisaLA'=>$sabpaisaPGLA,'phonePeLA'=>$phonePeLA
+                'zaakPaySA'=>$zaakPaySA,'paygicSA'=>$paygicPGSA,'lyraSA'=>$lyraPGSA,'sabpaisaSA'=>$sabpaisaPGSA,'phonePeSA'=>$phonePeSA,'razorPaySA'=>$razorPaySA,
+                'zaakPayLA'=>$zaakPayLA,'paygicLA'=>$paygicLA,'sabpaisaLA'=>$sabpaisaPGLA,'phonePeLA'=>$phonePeLA,'razorPayLA'=>$razorPayLA,
             ];
         }
     }
