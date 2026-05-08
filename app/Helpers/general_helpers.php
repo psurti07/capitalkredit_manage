@@ -822,7 +822,7 @@ use Modules\Auth\App\Models\Administrations;
             $razorPaySA = Razorpayentry::where('rec_date', 'like', Carbon::now()->toDateString().'%')
                 ->whereIn('entryfor', ['6', '7', '8', '9', '11', '21', '31'])
                 ->whereNotNull('referenceid')
-                ->where('txstatus','PAYMENT_SUCCESS')
+                ->where('txstatus','100')
                 ->selectRaw('SUM(orderamount) as totalAmt')
                 ->first()->totalAmt;
             /* $airpaySA = AirpayEntry::where('rec_date', 'like', Carbon::now()->toDateString().'%')
@@ -876,9 +876,9 @@ use Modules\Auth\App\Models\Administrations;
                 ->selectRaw('SUM(orderamount) as totalAmt')
                 ->first()->totalAmt;
             $razorPayLA = Razorpayentry::where('rec_date', 'like', Carbon::now()->toDateString().'%')
-                ->whereIn('entryfor', ['6', '7', '8', '9', '11', '21', '31'])
+                ->whereIn('entryfor', ['6', '7', '8', '9', '12', '21', '31'])
                 ->whereNotNull('referenceid')
-                ->where('txstatus','PAYMENT_SUCCESS')
+                ->where('txstatus','100')
                 ->selectRaw('SUM(orderamount) as totalAmt')
                 ->first()->totalAmt;
             /* $airpayLA = AirpayEntry::where('rec_date', 'like', Carbon::now()->toDateString().'%')
